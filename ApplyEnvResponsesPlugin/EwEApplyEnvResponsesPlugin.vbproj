@@ -88,11 +88,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="SourceGrid2">
-      <HintPath>..\..\Includes\SourceGrid2.dll</HintPath>
+      <HintPath>..\Includes\SourceGrid2.dll</HintPath>
     </Reference>
     <Reference Include="SourceLibrary, Version=1.2.0.0, Culture=neutral, PublicKeyToken=96907d46c0a9af87">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Includes\SourceLibrary.dll</HintPath>
+      <HintPath>..\Includes\SourceLibrary.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -103,7 +103,7 @@
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="WeifenLuo.WinFormsUI.Docking">
-      <HintPath>..\..\Includes\WeifenLuo.WinFormsUI.Docking.dll</HintPath>
+      <HintPath>..\Includes\WeifenLuo.WinFormsUI.Docking.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -206,8 +206,8 @@
     <PackageIcon>EII_plain_128x128.png</PackageIcon>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="..\..\README.md" Pack="True" PackagePath="\" />
-    <None Include="..\..\EII_plain_128x128.png" Pack="True" PackagePath="\" />
+    <None Include="..\README.md" Pack="True" PackagePath="\" />
+    <None Include="..\EII_plain_128x128.png" Pack="True" PackagePath="\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Eii.Ecopath.EwECore" Version="6.7.*" />
